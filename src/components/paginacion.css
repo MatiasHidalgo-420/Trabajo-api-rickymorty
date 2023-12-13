@@ -4,10 +4,17 @@ ul, li {
 .divNav{
     display: flex;
     justify-content: center;
+    margin-right: 25px;
 }
 ul{
     display: flex;
 }
 li {
     margin: 3px;
+    display: flex;
+    align-items: center;
+}
+h2{
+    margin-left: 10px;
+    margin-right: 10px;
 }

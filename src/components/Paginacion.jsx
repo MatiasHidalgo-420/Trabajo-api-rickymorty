@@ -14,15 +14,19 @@ function Paginacion({prev , next , anterior , siguiente}) {
 
   return (
     <div className='divNav'>
+        <div className='divNav'>
         <nav>
             <ul>
 
                 {prev ? (<li><button onClick={handleAnterior}>Anterior</button></li>) : null}
-
+                
+                
+                    
                 { next ? (<li><button onClick={handleSiguiente}>Siguiente</button></li>) : null}
 
             </ul>
         </nav>
+        </div>
     </div>
   )
 }
